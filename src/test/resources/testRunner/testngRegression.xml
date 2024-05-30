@@ -3,7 +3,6 @@
 
 <suite name="API Regression suite" >
 
-
    <test name="Go Rest API Get User test">
 	<parameter name="baseURI" value="https://gorest.co.in"></parameter>
 		<classes>
