@@ -27,6 +27,6 @@
 			<class name="com.gorest.tests.FakeAPI" />
 		</classes>
 	</test>
-
+//It's based on required testing regression
 	
 </suite> 
