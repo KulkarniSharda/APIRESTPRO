@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="API Regression suite" >
+
+
+   <test name="Go Rest API Get User test">
+	<parameter name="baseURI" value="https://gorest.co.in"></parameter>
+		<classes>
+			<class name="com.gorest.qa.tests.GetTest" />
+		</classes>
+	</test> 
+	
+	<test name="Go Rest API Create User test">
+	<parameter name="baseURI" value="https://gorest.co.in"></parameter>
+		<classes>
+			<class name="com.gorest.qa.tests.PostTest" />
+		</classes>
+	</test> 
+	
+	
+
+	 <test name="REQRES API Get User test">
+	<parameter name="baseURI" value="https://reqres.in"></parameter>
+		<classes>
+			<class name="com.gorest.qa.tests.ReqResTest" />
+		</classes>
+	</test> 
+	
+	 <test name="Fake AP Get User test">
+	<parameter name="baseURI" value="https://fakestoreapi.com"></parameter>
+		<classes>
+			<class name="com.gorest.qa.tests.FakeAPI" />
+		</classes>
+	</test>
+
+	
+</suite> 
