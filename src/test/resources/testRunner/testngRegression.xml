@@ -6,14 +6,14 @@
    <test name="Go Rest API Get User test">
 	<parameter name="baseURI" value="https://gorest.co.in"></parameter>
 		<classes>
-			<class name="com.gorest.qa.tests.GetTest" />
+			<class name="com.gorest.tests.GetTest" />
 		</classes>
 	</test> 
 	
 	<test name="Go Rest API Create User test">
 	<parameter name="baseURI" value="https://gorest.co.in"></parameter>
 		<classes>
-			<class name="com.gorest.qa.tests.PostTest" />
+			<class name="com.gorest.tests.PostTest" />
 		</classes>
 	</test> 
 	
@@ -22,14 +22,14 @@
 	 <test name="REQRES API Get User test">
 	<parameter name="baseURI" value="https://reqres.in"></parameter>
 		<classes>
-			<class name="com.gorest.qa.tests.ReqResTest" />
+			<class name="com.gorest.tests.ReqResTest" />
 		</classes>
 	</test> 
 	
 	 <test name="Fake AP Get User test">
 	<parameter name="baseURI" value="https://fakestoreapi.com"></parameter>
 		<classes>
-			<class name="com.gorest.qa.tests.FakeAPI" />
+			<class name="com.gorest.tests.FakeAPI" />
 		</classes>
 	</test>
 
